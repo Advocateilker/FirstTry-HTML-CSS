@@ -1,0 +1,50 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0rem;
+    padding-bottom: 0.rem;
+    overflow: hidden;
+    height: 65px;
+}
+
+#navbar ul {
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+#navbar ul li {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+#about h3 {
+    text-align: justify;
+}
+
+.expertise {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+div.emergency {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+div.GP {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+div.family {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

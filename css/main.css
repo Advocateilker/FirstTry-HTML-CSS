@@ -1,0 +1,244 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+ul li {
+    list-style: none;
+}
+
+html {
+    font-family: "Open Sans",  sans-serif;
+}
+
+#navbar {
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.50rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 6px;
+}
+
+#about {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+#about img {
+    height: 450px;
+    border-radius: 450px;
+    margin: 0.5rem;
+    position:relative;
+}
+
+#about h3{
+    letter-spacing: 2px;
+    color: azure;
+    text-align: justify;
+}
+
+#about h3:hover {
+    color: #336ea2;
+    background-color: azure;
+    border:1px dashed #336ea2;
+    padding: auto 0;
+    margin: auto 0;
+    align-self: center;
+    align-items: center;
+    
+}
+
+#expertise h2 {
+    text-align: center;
+    display: block;
+    color: azure;
+    
+}
+
+.expertise {
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise img {
+    height: 250px;
+    width: 350px;    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    position:relative;
+
+}
+
+.expertise .emergency {
+    background-color: bisque;
+    display: flex;
+    justify-content:stretch;
+    align-items:center;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 0.5rem;
+}
+
+.expertise .emergency:hover {
+    background-color: palevioletred;
+    border: 1.5px dashed black;
+}
+
+.expertise .GP {
+    background-color:cadetblue;
+    display: flex;
+    justify-content:stretch;
+    align-items:center;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 0.5rem;
+}
+
+.expertise .GP:hover {
+    background-color: palevioletred;
+    border: 1.5px dashed black;
+}
+
+.expertise .family {
+    background-color:darkkhaki;
+    display: flex;
+    justify-content:stretch;
+    align-items:center;
+}
+
+.expertise .family:hover {
+    background-color: palevioletred;
+    border: 1.5px dashed black;
+}
+
+.emergencyindex {
+    
+    letter-spacing: 1px;
+    align-self: center;
+    padding-left: 1rem;
+    justify-self: center;
+}
+
+.GPindex {
+    letter-spacing: 1px;
+    align-self: center;
+    padding-left: 1rem;
+    justify-self: center;
+
+}
+
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#contact .container .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.3rem;
+}
+
+#contact div.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#contact h2 {
+    color: azure;
+}
+
+div.name {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 0.3rem;
+
+}
+
+div.name label {
+    text-align: center;
+    
+}
+
+div.email {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 0.9rem;
+
+}
+
+div.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 0.3rem;
+
+}
+
+div.message label {
+    text-align: center;
+
+}
+
+div.email label {
+    text-align: center;
+}
+
+.message textarea {
+    width: 300px;
+    margin-bottom: 0.3rem;
+    
+
+}
+
+div.button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+div.button button {
+    padding: 0.4rem;
+    background-color: cadetblue;
+    margin: 0.4rem;
+    
+}
+
+div.button button:hover {
+    background-color: azure;
+    color: cadetblue;
+    border: 0.9px dashed darkkhaki;
+}
+
+
+
+
